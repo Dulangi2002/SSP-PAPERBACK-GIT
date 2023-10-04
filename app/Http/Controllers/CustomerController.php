@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Models\Customer;
+use App\Models\customer_details;
 use App\Models\product;
 use App\Models\User;
 use Illuminate\Http\Request;
@@ -13,13 +14,19 @@ class CustomerController extends Controller
     
 
 
-    public function index(){
-        $customerdata =Customer::get();
-        //return $customerdata;
-        return view('customerpage', compact('customerdata'));
+    // public function index(){
+    //     $customerdata =Customer::get();
+    //     foreach($customerdata as $customer){
+    //         $customerAddressBook = customer_details::where('customer_id','=',$customer->id)->get();
+    //         $customer->address = $customerAddressBook;
+    //     }
 
 
-    }
+    //     //return $customerdata;
+    //     return view('customerpage', compact('customerdata','customerAddressBook'));
+
+
+    // }
 
     public function adminHome(){
        

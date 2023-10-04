@@ -197,6 +197,38 @@
     height: 20vh;
 }
 
+#stock-chart{
+ 
+    margin-left: 1%;
+    margin-top: 45%;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    width: 50vw;
+    height: 100vh;
+   
+ 
+    
+}
+
+@media  screen and (max-width: 200px) {
+    #stock-chart{
+     
+            margin-left: 1%;
+            margin-top: 45%;
+            margin-bottom: 50px;
+            padding-top: 10px;
+            width: 50vw;
+            height: 100vh;
+         
+         
+
+       
+     
+        
+    }
+    
+}
+
 
 @media screen and (min-width: 700px) {
     #best-sellers-abandonment-rate{

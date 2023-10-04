@@ -64,7 +64,6 @@ Route::get('getadmindashboard',[UserController::class,'index']);
 
 /*users*/
 Route::get('user-list',[UserController::class,'list'])->middleware(['isitadmin','checkadmin']);
-Route::get('delete-user/{id}',[UserController::class,'deleteUser'])->middleware(['isitadmin','checkadmin']);  
 
 
 
@@ -77,8 +76,9 @@ Route::post('update-admin',[UserController::class,'UpdateAdmin']);
 Route::get('AddUser',[UserController::class,'AddUser'])->middleware(['isitadmin','checkadmin']);
 Route::post('save-user',[UserController::class,'SaveUser']);
 Route::post('registerUser',[UserController::class,'RegisterUser'])->name('registerUser');
-Route::get('edit-user/{id}',[UserController::class,'EditUser'])->middleware(['isitadmin','checkadmin']);    
-Route::post('update-user',[UserController::class,'UpdateUser']);
+Route::get('/edit-user/{id}',[UserController::class,'EditUser'])->middleware(['isitadmin','checkadmin'])->name('edituser');
+Route::get('/delete-user/{id}',[UserController::class,'deleteUser'])->middleware(['isitadmin','checkadmin'])->name('deleteuser');  
+Route::post('/update-user',[UserController::class,'UpdateUser'])->name('updateuser');
 Route::get('backtoadmin',[UserController::class,'backtoadmin']);
 Route::get('/create-product',[ProductController::class,'createProduct'])->middleware(['isitadmin','checkadmin'])->name('createproduct');
 Route::post('/save-product',[ProductController::class,'SaveProduct'])->name('Saveproduct');

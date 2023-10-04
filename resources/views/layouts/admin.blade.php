@@ -92,6 +92,10 @@
                 @livewire('sales-per-category')
 
             </div>
+            <div id="stock-chart" class="">
+              @livewire('stocks')
+
+            </div>
 
 
         </div>
