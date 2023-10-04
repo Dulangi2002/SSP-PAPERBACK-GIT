@@ -210,6 +210,26 @@
     
 }
 
+
+#cart{
+    background: url('/public/img/cart2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  
+    
+}
+
+#purchase-history-background-image{
+    background: url('/public/img/history4.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 30%;
+  
+    
+}
+
 @media  screen and (max-width: 200px) {
     #stock-chart{
      

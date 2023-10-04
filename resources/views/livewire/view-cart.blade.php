@@ -1,3 +1,5 @@
+
+
 <div class=" w-full" id="cart">
     <div class="flex flex-row ">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 mt-8 ml-8">
@@ -38,7 +40,7 @@
 
 
 
-        <div class=" m-8 grid lg:grid-cols-1 sm:grid-cols-1 md:grid-cols-1 ">
+        <div class=" m-8 grid lg:grid-cols-1 sm:grid-cols-1 md:grid-cols-1 bg-white ">
 
 
             @foreach($products as $product)

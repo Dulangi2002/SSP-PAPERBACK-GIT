@@ -1,5 +1,5 @@
 
-        <div class=" h-full ">
+        <div class=" h-full " id="purchase-history-background-image">
             <div class="flex justify-between">
                 <div class="w-1/4">
                     <h1 class="text-3xl font-bold font-merriweather m-8  w-2/3">Purchase History</h1>
@@ -19,7 +19,7 @@
             @endphp
           
 
-            <div class="w-full lg:ml-8 mb-8 " id="order-in-purchase-history">
+            <div class="w-full lg:ml-8 mb-8 bg-white " id="order-in-purchase-history">
                 <div class="flex flex-col ">
 
                     <div class="flex flex-row  bg-red-300 p-2 mr-4 justify-between m-4 rounded  text-lg font-[dm sans]">
@@ -97,4 +97,4 @@
        
                 </div>
             </div>
-        </div>
+       
