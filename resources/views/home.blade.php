@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html>
+
 
 <head>
   @livewireStyles
@@ -12,17 +11,14 @@
 
 <body x-data="{openMenu : false}" id="pastel1">
 
-
-
-
-@livewire('navigation-bar')
+@livewire('nav')
   <div id="test" class="flex flex-row w-full ">
     <img src="img/5.jpg" class="" id="image">
   </div>
 
   @livewire('search-sort' )
 
-  
+  @livewire('footer')
 
   <!-- component -->
   <!--Foooter -->
@@ -31,7 +27,7 @@
   @livewireScripts
 </body>
 
-<script>
+<!-- <script>
   function getProducts() {
     return {
       search: '',
@@ -48,7 +44,6 @@
       },
     }
 
-  }
+  } -->
 </script>
 
-</html>

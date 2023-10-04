@@ -43,14 +43,4 @@
 
 </head>
 
-<body>
-
-
-    @livewire('nav')
-    @livewire('pop-up-nav')
-    <div class="font-sans text-gray-900 antialiased">
-        {{ $slot }}
-    </div>
-</body>
-
 </html>

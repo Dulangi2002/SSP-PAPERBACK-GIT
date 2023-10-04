@@ -3,10 +3,10 @@
         <div class="max-w-7xl mx-auto py-10 sm:px-6 lg:px-8">
             <div class="flex justify-between">
                 <div class="w-1/4">
-                    <h1 class="text-3xl font-bold">Categories</h1>
+                    <h1 class="text-3xl font-bold m-8 ">Categories</h1>
                 </div>
             </div>
-            <table class="min-w-full">
+            <table class="min-w-full ">
                 <thead class="bg-gray-200 border-b ">
                     <tr class="bg-gray-100">
                         <!-- <th class="px-4 py-2 w-20">No.</th> -->

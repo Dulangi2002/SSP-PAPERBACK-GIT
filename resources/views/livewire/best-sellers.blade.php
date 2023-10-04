@@ -1,4 +1,4 @@
-<div class="mt-0 mr-0 lg:ml-10 ml-10 " >
+<div class=" lg:ml-10 ml-10 " >
 <h1 class="font-merriweather text-xl font-bold  underline  mt-4 text-center"> Best sellers of last month</h1>
 <ul>
     @foreach($bestSellers as $productName => $count)

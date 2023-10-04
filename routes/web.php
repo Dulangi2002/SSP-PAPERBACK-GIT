@@ -69,7 +69,7 @@ Route::get('delete-user/{id}',[UserController::class,'deleteUser'])->middleware(
 
 
 Route::group(['prefix' => 'administrator' ] , function(){
-Route::get('admin-list',[UserController::class,'adminList'])->middleware(['isitadmin','checkadmin']);
+Route::get('/admin-list',[UserController::class,'adminList'])->middleware(['isitadmin','checkadmin'])->name('adminlist');
 Route::get('edit-admin/{id}',[UserController::class,'EditAdmin'])->middleware(['isitadmin','checkadmin']);
 Route::post('update-admin',[UserController::class,'UpdateAdmin']);
 //Route::get('backadminlist',[UserController::class,'backadminlist']);

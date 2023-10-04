@@ -4,7 +4,7 @@
             <a href="#">Dashboard</a>
          </li>   
          <li class="inline-flex py-2 px-3 hover:bg-indigo-300 rounded"> 
-            <a href="{{url('admin-list')}}">Manage Admin</a>
+            <a href="{{ route('adminlist')}}">Manage Admin</a>
             </li>
            
             <li class="inline-flex py-2 px-3 hover:bg-indigo-300 rounded">    
@@ -13,7 +13,7 @@
 
            
             <li class="inline-flex py-2 px-3 hover:bg-indigo-300 rounded">
-            <a href('product-list')}}">Products</a>
+            <a href="{{('product-list')}}">Products</a>
             </li>
 
             <li class="inline-flex py-2 px-3 hover:bg-indigo-300 rounded">    

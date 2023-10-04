@@ -27,8 +27,9 @@
 
 </head>
 
-<header>
+<header class="">
     <!-- dsktop mneu-->
+    @livewire('admin-desktop-menu')
 
 </header>
 
@@ -41,7 +42,6 @@
         </button>
     </header>
 
-    @livewire('admin-desktop-menu')
 
 
 
@@ -80,8 +80,8 @@
                 @livewire('revenue' )
                 @livewire('get-product-views')
             </div>
-            <div class="flex flex-col m-4 " id="best-sellers-abandonment-rate">
-                <div>
+            <div class="flex flex-col  " id="best-sellers-abandonment-rate">
+                <div class="">
                     @livewire('best-sellers')
                 </div>
                 <div>
