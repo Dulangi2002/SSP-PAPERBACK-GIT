@@ -89,7 +89,7 @@
 
 
 
-  <h1 class="text-xl font-semibold mt-4 mb-4 text-center">Users List</h1>
+  <h1 class="text-xl font-semibold mt-4 mb-4 text-center">Address Book</h1>
 
 
 
