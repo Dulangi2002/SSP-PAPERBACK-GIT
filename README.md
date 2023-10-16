@@ -79,3 +79,4 @@ Greetings from Paperback, your home for discovering new books! Visit our online 
 - **Mailtrap:**
   Mailtrap is an email distribution tool used to inform users about their successful purchases. It ensures reliable and secure email communication, enhancing customer engagement and satisfaction.
 
+[SSP-CRM documentation.pdf](https://github.com/Dulangi2002/SSP-PAPERBACK-GIT/files/12913372/SSP-CRM.documentation.pdf)
