@@ -29,7 +29,7 @@
 
 - [Analytics and Reporting](#analytics-and-reporting)
     - [Revenue Tracking and Sales Reports](#revenue-tracking-and-sales-reports)
-    - [Identify Bestsellers] (#identify-bestsellers)
+    - [Identify Bestsellers](#identify-bestsellers)
     - [Identify item categories with the best sales](#identify-item-categories-with-the-best-sales)
     - [Get a count of product views ](#get-a-count-of-product-views)
     - [Optimization of Conversion Rate](#optimization-of-conversion-rate)
