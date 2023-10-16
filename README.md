@@ -13,16 +13,25 @@
 - [User Features](#user-features)
     - [Registration and Login for Users](#registration-and-login-for-users)
     - [Purchase Items Online](#purchase-items-online)
+    - [Add items to Cart](#add-items-to-Cart)
     - [View Order History](#view-order-history)
+      
+- [User management](#user-management)
+    -  [Add customer details](#add-customer-details)
+    -  [Edit customer details](#edit-customer-details)
+
 - [Product Management](#product-management)
     - [Product Catalog with Thorough Descriptions](#product-catalog-with-thorough-descriptions)
     - [Search and Filter Capabilities](#search-and-filter-capabilities)
     - [Add to Cart and Cart Management](#add-to-cart-and-cart-management)
-    - [Real-time Inventory Control](#real-time-inventory-control)
     - [Product Recommendations](#product-recommendations)
+    - [Add and edit products](#add-and-edit-products)
+
 - [Analytics and Reporting](#analytics-and-reporting)
     - [Revenue Tracking and Sales Reports](#revenue-tracking-and-sales-reports)
-    - [Popular Goods and Trends](#popular-goods-and-trends)
+    - [Identify Bestsellers] (#identify-bestsellers)
+    - [Identify item categories with the best sales](#identify-item-categories-with-the-best-sales)
+    - [Get a count of product views ](#get-a-count-of-product-views)
     - [Optimization of Conversion Rate](#optimization-of-conversion-rate)
 
 -[Technologies Used](#technologies-used)
@@ -70,20 +79,28 @@ npm run dev
 
 - **Registration and Login for Users:** In order to unlock personalized features and speed up the checkout process, create an account or securely log in.
 - **Purchase Items Online:** Easily order your desired titles from the comfort of your home.
+- **Add items to Cart:** You can easily manage the items you want to purchase now or later and proceed to checkout.
 - **View Order History:** Keep track of your purchases by gaining access to a thorough record of your previous orders.
+
+## User management
+-  **Add customer details:** Easily register users and allow them access Paperback and it's many features.
+-  **Edit customer details:** Easily modify any user details upon request.
+
 
 ## Product Management
 
 - **Product Catalog with Thorough Descriptions:** Each book in our inventory is fully described, including narrative summaries and author information.
 - **Search and Filter Capabilities:** Book titles, authors, and genres are easily searchable. Use filters to find books arranged according to your tastes.
 - **Add to Cart and Cart Management:** Add books to your cart without difficulty and manage your choices with ease. Before checking out, go back and modify your cart.
-- **Real-time Inventory Control:** Our real-time inventory updates ensure that the books in your cart are constantly in stock and available for sale.
-- **Product Recommendations:** Receive reading suggestions based on the item's sales performance.
+- **Product Recommendations:** Receive reading suggestions based on the item's sales performance during the previous month.
+- **Add and edit products:** Easily add more products to your product catalogs for users to purchase and edit their details when necessary.
 
 ## Analytics and Reporting
 
 - **Revenue Tracking and Sales Reports:** Identify your sales performance and monitor long-term revenue patterns. Analyze your financial data to make wise decisions for your company.
-- **Popular Goods and Trends:** Determine the best-selling items and burgeoning trends among your clientele. Keep up with what readers are interested in and ensure your catalog reflects that.
+- **Identify Bestsellers:** Determine the best-selling items among your clientele. Keep up with what readers are interested in and ensure your catalog reflects that.
+- **Identify item categories with the best sales:** Identify what your clients love and re-stock your shelves only with the right items.
+- **Get a count of product views:** See what your users are spending their day browsing on your website. Then restock with the right products.
 - **Optimization of Conversion Rate:** Improve the user experience on your website to boost conversion rates. Enhance the chance of profitable transactions by streamlining the purchasing process and analyzing user behavior.
 
 
