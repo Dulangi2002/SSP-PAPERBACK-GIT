@@ -8,6 +8,8 @@
 
 ## Table of Contents
 - [About PaperBack](#about-paperback)
+- [My Documentation](#view-documentation)
+- [Installation](#installation)
 - [User Features](#user-features)
     - [Registration and Login for Users](#registration-and-login-for-users)
     - [Purchase Items Online](#purchase-items-online)
@@ -29,6 +31,11 @@
   - [Database](#database)
   - [Email Distribution](#email-distribution)
 
+-[System Screenshots](#some-screenshots)
+
+-[Conclusion](#conclusion)
+
+
 
 
 ## About PaperBack
@@ -37,7 +44,26 @@ Greetings from Paperback, your home for discovering new books! Visit our online 
 
 
 ## My Documentation
- - [SSP-CRM documentation.pdf](https://github.com/Dulangi2002/SSP-PAPERBACK-GIT/files/12913372/SSP-CRM.documentation.pdf)
+ [SSP-CRM documentation.pdf](https://github.com/Dulangi2002/SSP-PAPERBACK-GIT/files/12913372/SSP-CRM.documentation.pdf)
+
+## Getting Started
+Clone the Repository
+First, clone the repository to your local machine using the following command:
+
+```bash
+git clone https://github.com/Dulangi2002/SSP-PAPERBACK-GIT.git
+```
+
+
+Run the server
+```bash
+php artisan serve
+```
+
+Run the build
+```bash
+npm run dev
+```
 
 
 ## User Features
@@ -60,11 +86,14 @@ Greetings from Paperback, your home for discovering new books! Visit our online 
 - **Popular Goods and Trends:** Determine the best-selling items and burgeoning trends among your clientele. Keep up with what readers are interested in and ensure your catalog reflects that.
 - **Optimization of Conversion Rate:** Improve the user experience on your website to boost conversion rates. Enhance the chance of profitable transactions by streamlining the purchasing process and analyzing user behavior.
 
-## Technologies Used
 
+
+## Technologies Used
 ### Backend Technologies
-- **Laravel / Laravel Livewire / Laravel Jetstream:**
-  Laravel is a powerful server-side framework used in web development, simplifying tasks through component reusability. Laravel follows the Model-View-Controller (MVC) architecture, enhancing development cohesion. Jetstream provides essential features like login, registration, and email verification, accelerating the production process. Livewire, a full-stack framework for Laravel, enables the creation of dynamic user interfaces without JavaScript, ensuring seamless user experiences and eliminating page reload challenges.
+ -**Laravel / Laravel Livewire / Laravel Jetstream:**
+  Laravel is a powerful server-side framework used in web development, simplifying tasks through component reusability. Laravel follows the Model-View-Controller (MVC) architecture, enhancing development 
+  cohesion. Jetstream provides essential features like login, registration, and email verification, accelerating the production process. Livewire, a full-stack framework for Laravel, enables the creation of 
+  dynamic user interfaces without JavaScript, ensuring seamless user experiences and eliminating page reload challenges.
 
 ### Frontend Technologies
 - **Alpine.js:**
@@ -84,3 +113,82 @@ Greetings from Paperback, your home for discovering new books! Visit our online 
 - **Mailtrap:**
   Mailtrap is an email distribution tool used to inform users about their successful purchases. It ensures reliable and secure email communication, enhancing customer engagement and satisfaction.
 
+  
+
+ ## System Screenshots
+
+ 
+- **View product details**
+  <img src="https://github.com/Dulangi2002/SSP-PAPERBACK-GIT/assets/117908010/4e9be68a-d529-4b88-bde5-531aa5a77c44" height="400" width="600" />
+  <hr>
+
+- **View Cart**
+  <img src="https://github.com/Dulangi2002/SSP-PAPERBACK-GIT/assets/117908010/a408cea2-00cf-417c-b1e3-380b089ce1ea" height="400" width="600" />
+  <hr>
+
+- **View Purchase history**
+  <img src="https://github.com/Dulangi2002/SSP-PAPERBACK-GIT/assets/117908010/8bd9acdc-64ce-4c02-8f97-02f7d3487acd" height="400" width="600" />
+  <hr>
+
+  - **Save Address**
+ 
+  <img src="https://github.com/Dulangi2002/SSP-PAPERBACK-GIT/assets/117908010/71f78340-2fd4-4eed-b6ce-ca4b389d5248" height="200" width="400" />
+  <hr>
+
+   ### View Analytics
+   - **stock levels**
+  <img src="https://github.com/Dulangi2002/SSP-PAPERBACK-GIT/assets/117908010/7cf0c040-a030-4462-af06-6454ec850b66" height="400" width="400" />
+  <hr>
+
+  
+   - **Sales per category**
+ <img src="https://github.com/Dulangi2002/SSP-PAPERBACK-GIT/assets/117908010/31a0db5f-3422-45c5-b4c7-9598c17c7459" height="400" width="400" />
+  <hr>
+
+
+- **Best-Sellers**
+
+ <img src="https://github.com/Dulangi2002/SSP-PAPERBACK-GIT/assets/117908010/0816119c-38c3-4800-a438-218ffe2cf1a7" height="200" width="200" />
+  <hr>
+
+   - **System user over-view**
+
+ <img src="https://github.com/Dulangi2002/SSP-PAPERBACK-GIT/assets/117908010/e6d29b5c-c9f7-42c2-bb27-6901383ccdb2" height="200" width="400" />
+  <hr>
+
+   - **Product views**
+
+ <img src="https://github.com/Dulangi2002/SSP-PAPERBACK-GIT/assets/117908010/fbc0500d-e82f-426b-9328-d07d827850a9" height="200" width="400" />
+  <hr>
+
+  
+ - **Cart abandonment rate**
+
+ <img src="https://github.com/Dulangi2002/SSP-PAPERBACK-GIT/assets/117908010/d6a000a1-a7bd-42a5-bb69-e4e6a3a38122" height="200" width="400" />
+  <hr>
+
+
+
+  - **Manange users**
+  <img src="https://github.com/Dulangi2002/SSP-PAPERBACK-GIT/assets/117908010/17da9c4d-7fca-45bb-879b-4ce16e7fab46" height="400" width="600" />
+  <hr>
+
+  - **Manage products**
+  <img src="https://github.com/Dulangi2002/SSP-PAPERBACK-GIT/assets/117908010/3c1abe73-7fc3-4e7e-8b05-2c2d30667e7b" height="400" width="600" />
+  <hr>
+
+
+
+  - **Manage Categories**
+  <img 
+src="https://github.com/Dulangi2002/SSP-PAPERBACK-GIT/assets/117908010/809fcca5-4a8a-47d9-995b-86ef41e3ea18" height="400" width="600" />
+  <hr>
+
+
+
+
+## Conclusion
+<p>
+    Our platform offers users a smooth user experience that makes it simple to sign up, explore, and buy their preferred titles from the convenience of their homes. The user-friendly product management system makes sure that every book is thoroughly explained, enabling our customers to make more informed decisions. The books they have added to their baskets are always available thanks to real-time inventory monitoring, and their reading discoveries are enriched by personalized product recommendations.
+
+</p>
