@@ -35,6 +35,11 @@
 
 Greetings from Paperback, your home for discovering new books! Visit our online bookstore to immerse yourself in the wonderful world of books, where words come to life and tales are waiting to capture your imagination. At Paperback, we handpick hundreds of books from all genres, making sure there is something for every reader. Our shelves are loaded with carefully chosen books to suit all literary preferences, whether you're a passionate fiction fan, a curious non-fiction aficionado, or a young reader just discovering the beauty of narrative.
 
+
+## My Documentation
+ - [SSP-CRM documentation.pdf](https://github.com/Dulangi2002/SSP-PAPERBACK-GIT/files/12913372/SSP-CRM.documentation.pdf)
+
+
 ## User Features
 
 - **Registration and Login for Users:** In order to unlock personalized features and speed up the checkout process, create an account or securely log in.
@@ -79,4 +84,3 @@ Greetings from Paperback, your home for discovering new books! Visit our online 
 - **Mailtrap:**
   Mailtrap is an email distribution tool used to inform users about their successful purchases. It ensures reliable and secure email communication, enhancing customer engagement and satisfaction.
 
-[SSP-CRM documentation.pdf](https://github.com/Dulangi2002/SSP-PAPERBACK-GIT/files/12913372/SSP-CRM.documentation.pdf)
