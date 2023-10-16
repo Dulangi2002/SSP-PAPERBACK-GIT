@@ -42,6 +42,8 @@
 
 -[System Screenshots](#some-screenshots)
 
+-[License](#license)
+
 -[Conclusion](#conclusion)
 
 
@@ -203,7 +205,8 @@ npm run dev
   <hr>
 
 
-
+## license
+<p>https://opensource.org/license/mit/</p>
 
 ## Conclusion
 <p>
