@@ -134,21 +134,22 @@ npm run dev
 
  ## System Screenshots
 
- 
-- **View product details**
+ - **View product details**
+   
   <img src="https://github.com/Dulangi2002/SSP-PAPERBACK-GIT/assets/117908010/4e9be68a-d529-4b88-bde5-531aa5a77c44" height="400" width="600" />
   <hr>
 
 - **View Cart**
+  
   <img src="https://github.com/Dulangi2002/SSP-PAPERBACK-GIT/assets/117908010/a408cea2-00cf-417c-b1e3-380b089ce1ea" height="400" width="600" />
   <hr>
 
 - **View Purchase history**
+  
   <img src="https://github.com/Dulangi2002/SSP-PAPERBACK-GIT/assets/117908010/8bd9acdc-64ce-4c02-8f97-02f7d3487acd" height="400" width="600" />
   <hr>
 
   - **Save Address**
- 
   <img src="https://github.com/Dulangi2002/SSP-PAPERBACK-GIT/assets/117908010/71f78340-2fd4-4eed-b6ce-ca4b389d5248" height="200" width="400" />
   <hr>
 
@@ -168,7 +169,7 @@ npm run dev
  <img src="https://github.com/Dulangi2002/SSP-PAPERBACK-GIT/assets/117908010/0816119c-38c3-4800-a438-218ffe2cf1a7" height="200" width="200" />
   <hr>
 
-   - **System user over-view**
+- **System user over-view**
 
  <img src="https://github.com/Dulangi2002/SSP-PAPERBACK-GIT/assets/117908010/e6d29b5c-c9f7-42c2-bb27-6901383ccdb2" height="200" width="400" />
   <hr>
@@ -197,8 +198,8 @@ npm run dev
 
 
   - **Manage Categories**
-  <img 
-src="https://github.com/Dulangi2002/SSP-PAPERBACK-GIT/assets/117908010/809fcca5-4a8a-47d9-995b-86ef41e3ea18" height="400" width="600" />
+    
+  <img src="https://github.com/Dulangi2002/SSP-PAPERBACK-GIT/assets/117908010/809fcca5-4a8a-47d9-995b-86ef41e3ea18" height="400" width="600" />
   <hr>
 
 
