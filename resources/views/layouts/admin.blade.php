@@ -33,72 +33,70 @@
 
 </header>
 
-<body x-data="{openMenu : false}">
-    <header class=" flex justify-between bg-white drop-shadow-sm py-4 px-8 ">
-        <button class="md:hidden" @click="openMenu = !openMenu">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-            </svg>
-        </button>
-    </header>
+<body>
+
+    <div class="p-4 sm:ml-64">
+        <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700">
+            <div class="grid lg:grid-cols-3 grid-cols-1 gap-4 mb-4">
+                <div class="">
 
 
+                    <div class="max-w-sm rounded overflow-hidden shadow-lg pt-4 px-6 py-4 bg-indigo-300 mt-4">
+                        <div class="font-bold text-xl mb-2 ">Total products</div>
+                        <h2>{{$totalproducts}}</h2>
+                    </div>
 
 
-    <!--pop out nav-->
-    @livewire('admin-pop-up-nav')
+                    <div class="max-w-sm rounded overflow-hidden shadow-lg pt-4 px-6 py-4 bg-indigo-300 mt-4">
+                        <div class="font-bold text-xl mb-2 ">Total Users</div>
+                        <h2>{{$totalregisteredusers}}</h2>
+                    </div>
 
 
+                    <div class="max-w-sm rounded overflow-hidden shadow-lg pt-4 px-6 py-4 bg-indigo-300 mt-4">
+                        <div class="font-bold text-xl mb-2 ">Total Admins</div>
+                        <h2>{{$totaladmins}}</h2>
+                    </div>
+                    <div class="">
+                    @livewire('cart-abandonment-rate')
 
-    <div class="flex flex-row justify-left gap-6 ml-10 mt-10">
+                </div>
+                </div>
 
+             
+                <div class=" p-4 ">
+                    @livewire('sales-per-category')
 
-        <div class="max-w-sm rounded overflow-hidden shadow-lg pt-4 px-6 py-4 bg-indigo-300 mt-4">
-            <div class="font-bold text-xl mb-2 ">Total products</div>
-            <h2>{{$totalproducts}}</h2>
-        </div>
+                </div>
 
+            </div>
 
-        <div class="max-w-sm rounded overflow-hidden shadow-lg pt-4 px-6 py-4 bg-indigo-300 mt-4">
-            <div class="font-bold text-xl mb-2 ">Total Users</div>
-            <h2>{{$totalregisteredusers}}</h2>
-        </div>
-
-
-        <div class="max-w-sm rounded overflow-hidden shadow-lg pt-4 px-6 py-4 bg-indigo-300 mt-4">
-            <div class="font-bold text-xl mb-2 ">Total Admins</div>
-            <h2>{{$totaladmins}}</h2>
-        </div>
-    </div>
-
-
-    <br>
-    <div>
-
-        <div class="flex flex-col ">
-            <div>
-                @livewire('revenue' )
+            <div class=" w-full rounded-lg mt-8 ">
                 @livewire('get-product-views')
             </div>
-            <div class="flex flex-col  " id="best-sellers-abandonment-rate">
-                <div class="">
-                    @livewire('best-sellers')
-                </div>
-                <div>
-                    @livewire('cart-abandonment-rate')
-                </div>
-            </div>
-            <div id="sales-per-category">
-                @livewire('sales-per-category')
 
-            </div>
-            <div id="stock-chart" class="">
-              @livewire('stocks')
-
-            </div>
 
 
         </div>
+
+        <div class="flex lg:flex-row flex-col gap-2 ">
+            <div class="w-1/2 p-8 border-2 mt-2 rounded-lg bg-[#EBE3D5] text-xl underline  ">
+                @livewire('stocks')
+            </div>
+
+            <div class="flex flex-row border-2 mt-2 rounded-lg bg-[#EBE3D5] ">
+
+                @livewire('best-sellers')
+
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
 
     </div>
     </div>

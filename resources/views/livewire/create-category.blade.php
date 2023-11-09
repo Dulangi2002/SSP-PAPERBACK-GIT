@@ -12,7 +12,7 @@
 @error('category_status') <span class="error">{{ $message }}</span> @enderror
 @error('category_order') <span class="error">{{ $message }}</span> @enderror
 
-<div class="w-full max-w-xs">
+<div class="w-full max-w-md absolute m-auto left-0 right-0">
 
 
 <form  id="popup-form" wire:submit.prevent="addCategory" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 ">

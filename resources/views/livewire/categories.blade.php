@@ -1,9 +1,33 @@
+@extends('layouts.adminheader')
+
+
+<header>
+
+@livewire('admin-desktop-menu')
+
+</header>
+
+
 <div>
     <div>
         <div class="max-w-7xl mx-auto py-10 sm:px-6 lg:px-8">
             <div class="flex justify-between">
                 <div class="w-1/4">
                     <h1 class="text-3xl font-bold m-8 ">Categories</h1>
+                </div>
+
+                <div>
+
+                <div x-data="{ open: false }" class="mt-10">
+
+@livewire('create-category' )
+
+
+{{--<a href="{{ route ( 'createcategory') }} "> Create category</a>--}}
+
+
+
+</div>
                 </div>
             </div>
             <table class="min-w-full ">

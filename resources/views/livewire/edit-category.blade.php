@@ -1,4 +1,4 @@
-@extends('layouts.edit') 
+
 <div x-data="{ showEdit: @entangle('showEdit') }">
 
     <button @click="showEdit = true" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
@@ -6,7 +6,7 @@
 
     <div x-show="showEdit">
  
-        <div class="w-full max-w-xs bg-black">
+        <div class="w-full max-w-xs ">
 
      
         <form id="popup-form" wire:submit.prevent="editCategory" class="edit-category-form">

@@ -1,5 +1,5 @@
 <div>
-    <h2 class="ml-20 font-bold font-[dm sans] text-xl ">Stock Levels</h2>
+    <h2 class="font-bold font-[dm sans] text-xl ">Stock Levels</h2>
     <table id="table" hidden>
         <thead>
             <tr>

@@ -1,13 +1,13 @@
-<div class=" lg:w-2/3 md:w-full sm:w-full ">
+<div class=" lg:w-2/3 md:w-full sm:w-full border-2 p-6 rounded-lg bg-white ">
 
 <div class="flex flex-col">
   <div class="overflow-x-auto sm:mx-0.5 lg:mx-0.5">
     <div class="py-2 inline-block min-w-full sm:px-6 lg:px-8">
       <div class="overflow-hidden">
-        <table id="views-table" class="min-w-full">
-          <thead class="bg-gray-200 border-b ">
+        <table  class="min-w-full  border-2">
+          <thead class="bg-[#EC8F5E] border-2 rounded-lg ">
             <tr>
-              <th class="text-sm font-medium text-gray-900 px-6 py-4 text-left">Product</th>
+              <th class="text-sm font-medium text-gray-900 px-6 py-4 text-left ">Product</th>
               <th class="text-sm font-medium text-gray-900 px-6 py-4 text-left">Product views</th>
             </tr>
           </thead>
