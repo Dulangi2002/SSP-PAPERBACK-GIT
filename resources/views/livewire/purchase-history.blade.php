@@ -1,5 +1,5 @@
 
-        <div class=" h-full " id="purchase-history-background-image">
+        <div class=" h-full " >
             <div class="flex justify-between">
                 <div class="w-1/4">
                     <h1 class="text-3xl font-bold font-merriweather m-8  w-2/3">Purchase History</h1>

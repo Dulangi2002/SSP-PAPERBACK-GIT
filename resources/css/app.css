@@ -212,7 +212,7 @@
 
 
 #cart{
-    background: url('/public/img/cart2.png');
+    /* background: url('/public/img/cart2.png'); */
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 10px;
@@ -388,14 +388,8 @@
 
 
     #cart-details-box{
-        border: rgb(104, 17, 92) 1px solid;
-        height: 200px;
-        padding: 20px;
-        align-items: left;
-        width: 300px;
-        border-radius: 10px;
+        
      
-        background-color: #ffffffe0;
 
     } 
 

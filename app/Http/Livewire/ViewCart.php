@@ -21,6 +21,8 @@ class ViewCart extends Component
 
 
     public $products;
+
+    
     
 
 
@@ -147,23 +149,19 @@ class ViewCart extends Component
     }
 
 
-
-
-
-
-
     public function delete($productId)
     {
         $this->cart->products()->detach($productId);
-
         $this->total_price = $this->cart->products->sum('pivot.total_price_per_product');
         $this->total_cart_items = $this->cart->products->sum('pivot.quantity');
         $this->total_price_per_item = $this->cart->products->sum('pivot.total_price_per_product');
         $this->products = $this->cart->products;
         
-        $this -> ViewCart();
-        $this->emit('productAddedToCart', 'Product deleted from cart.');
+        // $this -> ViewCart( $this->user_id);
+        // $this->emit('productAddedToCart', 'Product deleted from cart.');
+        $this ->emit('productAddedToCart', 'Product deleted from cart.');
         $this -> mount($this->user_id);
+
     }
     
     

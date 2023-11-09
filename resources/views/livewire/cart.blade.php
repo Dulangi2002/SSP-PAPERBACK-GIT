@@ -7,10 +7,11 @@ Add to cart
 
 
 
-<button wire:click="increment" class="flex flex-row mt-2 ml-2 bg-purple-300 mr-auto ml-auto 
+<button wire:click="increment({{ $productId  }})"
+ class="flex flex-row mt-2 ml-2 bg-purple-300 mr-auto ml-auto 
 justify-center p-3 w-full rounded-lg font-[dm-sans] hover:bg-white border-2 border-purple-500 gap-1">+1</button>
 <h1>{{ $quantity }}</h1>
-<button wire:click="decrement" class="flex flex-row mt-2 ml-2 bg-purple-300 mr-auto ml-auto justify-center
+<button wire:click="decrement({{ $productId  }})" class="flex flex-row mt-2 ml-2 bg-purple-300 mr-auto ml-auto justify-center
  p-3 w-full rounded-lg font-[dm-sans] hover:bg-white border-2 border-purple-500 gap-1">-1</button>
 </div>
 

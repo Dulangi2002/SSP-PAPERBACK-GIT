@@ -26,6 +26,14 @@ class Cart extends Component
 
     public $message; 
 
+    public $total_price;
+
+    public $total_cart_items;
+
+    public $total_price_per_item;
+
+    public $products;
+
   
     public function mount ($productId){
         $this->productId = $productId;
@@ -160,6 +168,49 @@ class Cart extends Component
     }
 
 */
+
+public function increment($productId) {
+    $product = Product::find($productId);
+
+    if ($product) {
+        $productQuantityInStock = $product->stock;
+        if ($this->quantity < $productQuantityInStock) {
+            $this->quantity++;
+        } else {
+            $this->emit('productAddedToCart', 'Product is not in stock.');
+        }
+    } 
+
+    //check if the product is in any carts
+    $cart = TheCart::where('user_id', auth()->user()->id)->where('status', 'pending')->first();
+    if ($cart) {
+        $check = $cart->products()->find($productId);
+        if ($check) {
+            $quantityInCart = $check->pivot->quantity;
+            $productQuantityInStock = $productQuantityInStock - $quantityInCart;
+            if ($this->quantity > $productQuantityInStock) {
+                $this->emit('productAddedToCart', 'Product is not in stock.');
+                $this->quantity = $productQuantityInStock;
+            }
+       
+        }
+    }
+
+    else {
+        $this->emit('productAddedToCart', 'Product not found.');
+    }
+}
+
+
+    public function decrement(){
+        if($this->quantity > 1){
+            $this->quantity--;
+           
+        }
+    }
+
+
+
     
 
  

@@ -63,13 +63,5 @@
  
   </div>
 </div>
-<div class="   w-full text-center  font-[DM-sans] text-2xl h-24 z-0 -mt-56 " id="row1">
 
-    </div>
-    <div class="   w-full text-center  font-[DM-sans] text-2xl h-24 " id="row2">
-
-    </div><div class="   w-full text-center  font-[DM-sans] text-2xl h-24 " id="row3">
-
-    </div><div class="   w-full text-center  font-[DM-sans] text-2xl h-24 " id="row4">
-
-    </div>
+   
