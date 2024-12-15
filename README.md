@@ -2,7 +2,6 @@
     <img src="https://github.com/Dulangi2002/SSP-PAPERBACK-GIT/assets/117908010/c535af71-364b-4538-b0cc-0c05214fdd06" height="200" />
 </div>
 <hr>
-<img src="https://github.com/Dulangi2002/SSP-PAPERBACK-GIT/assets/117908010/b6cff967-efd2-47ed-b39d-7b57370d6980" height="500" width="400" />
 
 
 
